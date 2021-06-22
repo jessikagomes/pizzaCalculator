@@ -1,0 +1,12 @@
+body {
+    background: #f40000 !important;
+}
+
+#logo {
+    width:80%;
+}
+
+.form-control-lg{
+    height: 60%;
+    width: 100%;
+}
