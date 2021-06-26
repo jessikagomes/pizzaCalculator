@@ -13,8 +13,8 @@
 				result = Math.ceil((n * x)/8);
 				sabores = result * 2;
 				extras = (result * 8) - (n*x);
-				return resultado.innerHTML = "São " + result + " pizzas <br> Pedaços extras: " + extras + "<br> E o máximo de " + sabores + " sabores";
+				return resultado.innerHTML = "Order " + result + " pizza(s) <br>Extra slices: " + extras + "<br>Order up to " + sabores + " toppings.";
 			} else {
-				return resultado.innerHTML = "* Preencha os campos."
+				return resultado.innerHTML = "* Please, fill in the fields."
 			}
 		}

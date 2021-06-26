@@ -1,12 +1,11 @@
 body {
-    background: #f40000 !important;
+
+}
+.container-fluid{
+
 }
 
 #logo {
-    width:80%;
+    width:30%;
 }
 
-.form-control-lg{
-    height: 60%;
-    width: 100%;
-}
